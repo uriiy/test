@@ -1,5 +1,10 @@
 # Инструкция по прошивки Bluetooth модуля
 
+@startuml
+Bob -[#red]> Alice : hello
+Alice -[#0000FF]->Bob : ok
+@enduml
+
 Программа в Bluetooth модуле состоит из трех компонентов:
 1. SoftDevice - программа BlueTooth стека;
 2. BootLoader - загрузчик, для обновление ПО по воздуху;
